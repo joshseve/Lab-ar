@@ -1,4 +1,70 @@
-/*Prueba de enlace*/
-body{
-  background: yellow;
+header {
+  background-color: #FFFFFF;
+}
+
+.logoPrincipal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*.menuPlano {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}*/
+
+li{
+  list-style:none;
+}
+
+body {
+  background: #FAAE27;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*#disfruta {
+   background-image: url(../img/taxi.jpg);
+}*/
+
+.cuadroAma {
+  background: #FAAE27;
+  color: #FFFFFF;
+  padding: 2%;
+  margin-top: 10%;
+}
+
+
+
+#descarga {
+  background: #FCB425;
+}
+
+.esBlanco {
+  color: #FFFFFF;
+}
+
+/*Pruebas de color*/
+.verde{
+  background-color: #FAAE27;
+}
+
+.darEspacio {
+  /*padding: 100px;*/
+  background: #FAAE27;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: thin;
+  padding: 5% 0% 5% 5%;
+  margin: 5% 0% 5% 0%;
+}
+
+.conduce {
+   background-image: url(../img/conduce.jpg);
+}
+
+.form-control{
+  color: ##FFFFFF;
+  background-color: #FAAE27;
+  border-radius: 10%;
 }
