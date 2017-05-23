@@ -1,6 +1,5 @@
 header {
   background-color: #FFFFFF;
-  padding: 3%;
 }
 
 .logoPrincipal {
@@ -9,11 +8,10 @@ header {
   align-items: center;
 }
 
-/*.menuPlano {
+.menuPlano {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-}*/
+}
 
 li{
   list-style:none;
@@ -32,15 +30,20 @@ body {
   background: #FAAE27;
   color: #FFFFFF;
   padding: 2%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 #descarga {
   background: #FCB425;
 }
 
-.esBlanco {
+.textoDescarga {
+  font-size: 25px;
+}
+
+.lasSecciones {
   color: #FFFFFF;
+  padding: 3% 7% 0% 7%;
 }
 
 /*Pruebas de color*/
@@ -49,21 +52,32 @@ body {
 }
 
 .darEspacio {
-  /*padding: 100px;*/
   background: #FAAE27;
   border-color: #FFFFFF;
   border-style: solid;
   border-width: thin;
-  padding: 5% 0% 5% 5%;
+  padding: 3% 0% 3% 3%;
   margin: 5% 0% 5% 0%;
 }
 
-.conduce {
-   background-image: url(../img/conduce.jpg);
+.cuadroNeg {
+    background-color: #000000;
+    opacity: .7;
+    color: #FFFFFF;
+    padding: 2%;
+    margin-top: 10%;
 }
 
-.form-control{
+.btn-default_2 {
+  background-color: #FAAE27;
+}
+
+.form-control {
   color: ##FFFFFF;
   background-color: #FAAE27;
   border-radius: 10%;
+}
+
+footer {
+  color: #FFFFFF;
 }

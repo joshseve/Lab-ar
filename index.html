@@ -17,7 +17,7 @@
 <!-- Aquí Empieza: Barra de Navegación -->
 		<header class="row">
 
-				<div class="col-md-6 logoPrincipal">
+				<div class="col-md-3 logoPrincipal">
 					<nav class="navbar navbar-default navbar-fixed-top">
 				  	<div class="container-fluid">
 				    	<div class="navbar-header">
@@ -26,21 +26,19 @@
 				        </a>
 				      </div>
 
-
-				<!-- DESAPARECIO MI MENU ...RESOLVER... -->
-				 <div class="col-md-6 menuPlano">
+				 <div class="col-md-9 menuPlano">
 					<div class="collapse navbar-collapse">
 		      	<ul class="nav navbar-nav navbar-right">
-		        	<li><a href="#"></a>Viaja</li>
-		          <li><a href="#"></a>Conduce</li>
-		          <li><a href="#"></a>Inicia sesión</li>
+		        	<li><a href="#"></a>  Viaja  </li>
+							<li><a href="#"></a>  </li>
+		          <li><a href="#"></a>  Conduce  </li>
+							<li><a href="#"></a>  </li>
+		          <li><a href="#"></a>  Inicia sesión  </li>
 		         </ul>
 		       </div>
 					</div>
-
 					</div>
 					</div>
-
 		  	</nav>
 		  </header>
 <!-- Aquí Termina: Barra de Navegación -->
@@ -50,7 +48,7 @@
 		  	<div class="row">
 
 		    	<div class="col-md-7">
-						<img src="img/taxi2.jpg" width="1200" alt="">
+						<img src="img/taxi2.jpg" width="1200" height="700" alt="">
 		    	</div>
 
 					<div class="col-md-3 cuadroAma">
@@ -80,13 +78,15 @@
 		             <div class="col-md-6">
 		               <img src="img/iPhone6Plus.png" alt="">
 		             </div>
-		             <div class="col-md-6 esBlanco">
-		               <h2>Descarga la nueva app</h2>
-		               <p>
+		             <div class="col-md-6 lasSecciones">
+		               <h2> <strong> Descarga la nueva app </strong></h2>
+									 		<br>
+		               <p class="textoDescarga">
 		                 La versión actualizada de LabCar está llena de nuevas
 										 funciones para llegar a donde quieras aún más fácil y rápido.
 		               </p>
-		               <p>
+									 		<br>
+		               <p class="textoDescarga">
 		                 Con solo tocar un botón, un auto llega justo a tu ubicación.
 										 Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.
 		               </p>
@@ -99,41 +99,48 @@
 <!-- 2) Aquí Termina: "DESCARGA"... es seccion dos_amarillo -->
 
 <!-- 3) Aquí Empieza: "CONDUCE"... es seccion tres_imagen -->
-		           <section id="conduce" class="esBlanco">
+		           <section id="conduce" class="lasSecciones">
 		             <div class="row">
+
 		               <div class="col-md-8">
-										 <img src="img/conduce.jpg" width="1200" alt="">
+										 <img src="img/conduce.jpg" width="1200" height="500" alt="">
 		               </div>
-		               <div class="col-md-4">
-		                 <h2>Conduce cuando quieras</h2>
-		                 <p>LabCar es un opción flexible para alcanzar tus metas financieras</p>
+
+		               <div class="col-md-4 cuadroNeg">
+		                 <h2> <strong>Conduce cuando quieras </strong></h2>
+		                 <p class="textoDescarga">LabCar es un opción flexible para alcanzar tus metas financieras</p>
 		                 <div class="btn btn-group-sm" role="group">
-		                   <button type="button" class="btn btn-default" name="button">Conviérte en conductor</button>
+		                   <button type="button" class="btn btn-default_2" name="button">Conviérte en conductor</button>
 		                 </div>
 		               </div>
+
 		             </div>
 		           </section>
 <!-- 3) Aquí Termina: "CONDUCE"... es seccion tres_imagen -->
 
 <!-- 4) Aquí Empieza: "TARIFAS"... es seccion cuatro_amarillo -->
 		           <section id="tarifas">
-		             <div class="row esBlanco">
+
+		             <div class="row lasSecciones">
 		               <div class="col-md-6">
-		                 <h2>Tarifas</h2>
-		                 <p>Consulta las tarifas LabCar aquí</p>
+		                 <h2> <strong> Tarifas </strong></h2>
+		                 <p class="textoDescarga">Consulta las tarifas LabCar aquí</p>
+
 		                 <div class="input-group">
+											 <img src="img/shape.png" alt="">
 		                   <input type="text" class="form-control" placeholder="Ingrese su punto de partida" aria-describedby="basic-addon2">
 		                 </div>
+										 		<br>
 		                 <div class="input-group">
+											 <img src="img/shape2.png" alt="">
 		                   <input type="text" class="form-control" placeholder="Ingrese su destino" aria-describedby="basic-addon2">
 		                 </div>
+
 		                 <div class="btn btn-group-sm" role="group">
 		                   <button type="button" class="btn btn-default" name="button">¡TRAZAR RUTA!</button>
 		                 </div>
 		               </div>
-		               <div class="col-md-6">
-		                 <img src="" alt="">
-		               </div>
+
 
 									 	<div class="mapa col-md-4">
 									    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8787591211503!2d-99.16700398553328!3d19.417643746191327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff41d4c73813%3A0xd1c6f4fcad149f54!2sLaboratoria+Coding+A.C.!5e0!3m2!1ses-419!2smx!4v1495471991200" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -146,9 +153,11 @@
 			 <footer>
          <div class="row">
            <div class="col-md-4">
-             <h2>LabCar</h2>
+             <h2><strong>LabCar</strong></h2>
            </div>
          </div>
+
+				 <hr>
 
 				 <!-- Menú vertical de footer en dos columnas -->
          <div class="row">
@@ -189,7 +198,9 @@
                </li>
              </ul>
            </div>
-					 <!--comentario prueba-->
+
+					 <!--comentario prueba de Ado para ayudarme a lidiar con Github 2:33pm-->
+
 					 <!-- Descargar imagenes o iconos de Redes Sociales -->
            <div class="row">
              <img src="" alt="">
